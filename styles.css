@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0a7a26;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+}
+
+h2 {
+    margin-top: 1.5rem;
+    color: #088d29;
+}
+
+article {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+article h3 {
+    margin-top: 1rem;
+    color: #555;
+}
+
+article p {
+    margin: 1rem 0;
+}
+
+article a {
+    color: #0288d1;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+#contato {
+    background-color: #ffffff;
+    padding: 2em;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 2em;
+}
+
+#contato h2 {
+    color: #2c3e50;
+    margin-bottom: 1em;
+}
+
+#contato p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 1.5em;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contato label {
+    font-weight: bold;
+    font-size: 1em;
+    align-self: flex-start;
+}
+
+#contato input[type="text"],
+#contato input[type="email"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#contato button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#contato button:hover {
+    background-color: #34495e;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
